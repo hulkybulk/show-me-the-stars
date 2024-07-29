@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Me the Stars Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Show Me the Stars</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#opt-in" class="btn">Opt In Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Join the 'Show Me the Stars' Program!</h1>
+                <p>Get a Free Tesla Model Y, Unistellar eVscope2, and Full Self-Driving</p>
+                <a href="#opt-in" class="btn">Opt In Now</a>
+                <div class="media-player">
+                    <audio id="background-audio" controls loop>
+                        <source src="Show_Me_the_Stars_Instrumental.mp4" type="audio/mp4">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </section>
+        <section id="introduction" class="content-section">
+            <h2>Introduction</h2>
+            <p>Welcome to the 'Show Me the Stars' program, a government-backed initiative aimed at promoting astronomy for the masses. Receive a Tesla Model Y, Unistellar eVscope2, and Full Self-Driving package completely free of charge!</p>
+        </section>
+        <section id="how-it-works" class="content-section">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>Step 1</h3>
+                    <p>Opt In and Share Information</p>
+                </div>
+                <div class="step">
+                    <h3>Step 2</h3>
+                    <p>Download the App</p>
+                </div>
+                <div class="step">
+                    <h3>Step 3</h3>
+                    <p>Receive Missions and Travel</p>
+                </div>
+                <div class="step">
+                    <h3>Step 4</h3>
+                    <p>Submit Weekly Imagery</p>
+                </div>
+                <div class="step">
+                    <h3>Step 5</h3>
+                    <p>Earn Rewards</p>
+                </div>
+            </div>
+        </section>
+        <section id="benefits" class="content-section">
+            <h2>Program Benefits</h2>
+            <ul>
+                <li>Free Tesla Model Y with Full Self-Driving</li>
+                <li>Free Unistellar eVscope2</li>
+                <li>All expenses paid (hotel, electricity, food stipend)</li>
+                <li>Monetary rewards for images and videos</li>
+            </ul>
+        </section>
+        <section id="participation" class="content-section">
+            <h2>Participation Requirements</h2>
+            <p>To stay in the program, submit a minimum of 10GB of clear and categorized imagery per week. Pure space images earn the highest rewards, while images with Earth-based materials earn less.</p>
+        </section>
+        <section id="testimonials" class="content-section">
+            <h2>Testimonials</h2>
+            <p>"This program has been life-changing! The Tesla and eVscope2 are amazing, and I've learned so much about the stars!" - Participant A</p>
+        </section>
+        <section id="faq" class="content-section">
+            <h2>Frequently Asked Questions</h2>
+            <!-- Include common questions and answers here -->
+        </section>
+        <section id="opt-in" class="content-section">
+            <h2>Opt In Now</h2>
+            <a href="opt-in.html" class="btn">Join the Program</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Show Me the Stars Program. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-audio');
+            audio.play().catch(function() {
+                console.log('Audio autoplay was prevented by the browser.');
+                // You can add a user interaction to start the audio if needed
+            });
+        });
+    </script>
+</body>
+</html>
